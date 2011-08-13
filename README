@@ -1,0 +1,41 @@
+Dropbox Applescript Helper:
+
+Key functionality: it uploads screenshot, files and stores them on ~/Dropbox/Public/screenshots/year/month/timestamp.jpg for screenshots and ~/Dropbox/Public/files/year/filename.ext for files.
+
+How to use?
+
+#1:
+  - Bring the script to launchbar.
+  - Press space.
+   - Enter the name of the image
+   - Enter the format (optional)
+   > Example: myname, jpg
+  - A cross-hair will appear. Select the region you want for the screenshot.
+    or
+    Press space to make a window screenshot.
+  Bring this script in LaunchBar, press space and type the name that you would
+  like to give to that screenshot and press return.
+  You will see a cross-hair, you can start selecting the region that you want a
+  screenshot of or you can press "space" key and take a screenshot of a window.
+  This will generate screenshot named myname in jpg format in your Dropbox folder.
+  You can also enter the format of the image
+  e.g. myname, jpg
+  note that the syntax is <name><comma><space><format>
+
+#2:
+  - Bring the script to launchbar.
+  - Hit return.
+  - A cross-hair will appear. Select the region you want for the screenshot.
+    or
+    Press space to make a window screenshot.
+  - This will generate screenshot with an automatic name in your Dropbox folder.
+  
+#3:
+  - Select a file using Launch bar and open it with this script by pressing tab, finding the script and pressing enter.
+  - The file will be copied to the dropbox public folder
+
+
+Authors: 
+ - iRounak (original)
+ - aristidesfl (rewrite)
+ - kuroir - http://github.com/kuroir (sub directories implementation, rewrote docs.)
